@@ -1,0 +1,38 @@
+#map {
+   	width: 60%;
+    height: 80%;
+    float: left;
+}
+.content{
+   	width: 36%;
+   	height: 80%;
+   	float: left;
+   	margin:2%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.bd-example-modal-lg .modal-dialog{
+    display: table;
+    position: relative;
+    margin: 0 auto;
+    top: calc(50% - 24px);
+  }
+  
+  .bd-example-modal-lg .modal-dialog .modal-content{
+    background-color: transparent;
+    border: none;
+  }
+@media only screen and (max-width: 700px) {
+	#map {
+	  	width: 100%;
+	    height: 50%;
+	}
+  	.content{
+     	width: 94%;
+      	float: left;
+      	margin:3%;
+   	}
+}
